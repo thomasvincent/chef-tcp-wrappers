@@ -4,11 +4,11 @@ group :development do
   # Testing and linting tools for Chef 18+
   gem 'chefspec', '~> 9.3'
   gem 'cookstyle', '~> 7.32'
-  gem 'kitchen-docker', '~> 2.13'
+  gem 'kitchen-docker', '~> 3.0'
   gem 'kitchen-inspec', '~> 3.0'
   gem 'test-kitchen', '~> 3.5'
 end
 
 group :integration do
-  gem 'inspec', '~> 5.21'
+  gem 'inspec', '~> 6.8'
 end
